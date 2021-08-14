@@ -1,0 +1,35 @@
+{
+  "name": "dw-rpg-assistant-telegram",
+  "actualName": "Doctor Who RPG Assistant",
+  "version": "1.0.0",
+  "description": "A Telegram bot to simplify the official DW RPG game",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inixioamillano/telegram-bot-template.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "template",
+    "node",
+    "doctorwho"
+  ],
+  "author": "Inixio Amillano Casteig",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inixioamillano/telegram-bot-template/issues"
+  },
+  "homepage": "https://github.com/inixioamillano/telegram-bot-template#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "node-telegram-bot-api": "^0.54.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.6.1"
+  }
+}
